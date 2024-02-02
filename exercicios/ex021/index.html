@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class e pseudo elemnetos</title>
+    <style>
+        body {
+            font: normal 16px arial verdana sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: green;  
+            font-weight: bold;          
+        }
+
+        a:visited {
+            color: orangered;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+        ul, li {
+            display: grid;
+        }
+
+        a:active {
+            color: chartreuse;
+        }
+
+       .servidor::before {
+        content: '♤';
+        color: green;
+        font-weight: normal;
+       }
+       
+        .servidor::after {
+            content: '♤';
+            text-decoration: none;
+            font-weight: normal;
+            color: green;
+        }
+
+        .servidor {
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>        
+    <ul>
+        <li><a href="https://www.instagram.com/kauan___galvani/" rel="externar" target="_blank">instagram</a></li>
+        <li><a href="https://www.facebook.com/kauan.galvani.9/" rel="external" target="_blank">facebook</a></li>
+        <li><a href="https://discord.gg/UA4FTEDe" rel="external" target="_blank" class="servidor">discord</a></li>
+    </ul>
+</body>
+</html>

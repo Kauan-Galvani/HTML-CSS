@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+* {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(145deg, #5952D4, #8E39C0, #DD1598, #FF066A, #FF6900, #FEBE3A);
+    background-attachment: fixed;
+}
+
+body h1 {
+    color: #000000;
+}
