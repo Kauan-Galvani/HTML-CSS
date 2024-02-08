@@ -3,4 +3,4 @@
 
  estou aprenderndo a desenvolver sites, e agr vou aprednder a gerenciar os meus repositorios!
  
-<a href= "https://kauan-galvani.github.io/HTML-CSS/minha%20propria%20versao%20do%20projeto/index.html"> aqui e os projetos do curso, sendo o azul feito somente por mim e minha mente
+<a href= "https://kauan-galvani.github.io/HTML-CSS/minha%20propria%20versao%20do%20projeto/index.html" target="_blanck"> aqui e os projetos do curso, sendo o azul feito somente por mim e minha mente
